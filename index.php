@@ -21,7 +21,7 @@ function oneOrEightyNine($n) {
 // Test 1-100,000
 $oneCount = 0;
 $eightyNineCount = 0;
-for ($i = 1; $i < 100000; $i++) {
+for ($i = 1; $i <= 100000; $i++) {
     $oneOrEightyNine = oneOrEightyNine($i);
     switch ($oneOrEightyNine) {
         case 1:
